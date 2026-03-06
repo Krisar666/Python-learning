@@ -1,0 +1,10 @@
+text="Ich liebe die deutsche Sprache!"
+print(text)
+print(text.lower())
+print(text.upper())
+text2=text.replace("!","")
+print(text2)
+print(text2.replace("deutsche","deutshche(n)"))
+words=text2.lower().split()
+print(words)
+print(len(words))
